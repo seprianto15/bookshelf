@@ -1,0 +1,6 @@
+@media (max-width: 1000px) {
+    .wrapper {
+      flex-wrap: wrap;
+      width: 100%;
+    }
+}

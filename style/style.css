@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&family=Noto+Sans+SC:wght@700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    background: #2C3E50;  
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  
+    background: linear-gradient(to right, #4CA1AF, #2C3E50); 
+}
+
+main {
+    overflow: auto;
+}
+  
+header{
+    height: 80px;
+    padding: 0 20px;
+}
+
+.logo{
+    line-height: 80px;
+    text-transform: uppercase;
+    color:#fff;
+    text-align: center;    
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin:0 auto;
+}
+
+.wrapper {
+    display: flex;
+    margin: 10px 0;
+}
+
+.input_section {
+    width: 100%;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.input_section > h2 {
+    text-align: center;
+}
+
+.input_section > form > .input {
+    margin: 8px 0;
+}
+
+.input_section > form > button {
+    background: #000000; 
+    background: -webkit-linear-gradient(to left, #434343, #000000);  
+    background: linear-gradient(to left, #434343, #000000);
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.input_section > form > button {
+    font-weight: bold;
+}
+
+.input_section > form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}   
+
+.input_section > form > .input > label {
+    font-weight: bold;
+}
+
+.input_section > form > .input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.book_shelf {
+    width: 100%;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.book_shelf > h2 {
+    color: black;
+}
+
+.book_shelf > .book_list {
+    padding: 5px;
+}
+
+.book_shelf > .book_list > .book_item {
+    padding: 8px 16px 16px 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.book_shelf > .book_list > .book_item > h3, p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.book_shelf > .book_list > .book_item > h3 {
+    font-size: 24px;
+}
+
+.book_shelf > .book_list > .book_item > .action > .green {
+    background: #52c234; 
+    background: -webkit-linear-gradient(to right, #061700, #52c234); 
+    background: linear-gradient(to right, #061700, #52c234); 
+    color: #fff;
+    padding: 0 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.book_shelf > .book_list > .book_item > .action > .red {
+    background: #333333;  
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  
+    background: linear-gradient(to right, #dd1818, #333333);
+    color: #fff;
+    padding: 0 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search_section {
+    width: 100%;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.search_section > h2 {
+    color: black;
+    text-align: center;
+}
+
+.search_section > form > input {
+    display: block;
+    margin: 10px 0px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+

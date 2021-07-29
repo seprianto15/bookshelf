@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <title>BookShelfApps</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 class= "logo">Bookshelf Apps</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            
+            <div class="wrapper">
+                <div class="input_section">
+                    <h2>Masukkan Buku Baru</h2>
+                    <form id="inputBook">
+                        <div class="input">
+                            <label for="inputTitle">Judul</label>
+                            <input id="inputTitle" type="text" required>
+                        </div>
+                        <div class="input">
+                            <label for="inputAuthor">Penulis</label>
+                            <input id="inputAuthor" type="text" required>
+                        </div>
+                        <div class="input">
+                            <label for="inputDate">Tanggal</label>
+                            <input id ="inputDate" type="number" required>
+                        </div>
+                        <div class="input_inline">
+                            <label for="inputBookIsComplete">Selesai dibaca</label>
+                            <input id="inputBookIsComplete" type="checkbox">
+                        </div>
+                        <button id ="bookSubmit">Masukkan buku ke rak</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="wrapper">
+                <div class="book_shelf">
+                    <h2>Belum selesai dibaca</h2>
+                        <div id="incompleteBookshelfList" class="book_list"></div>
+                </div>
+
+                <div class="book_shelf">
+                    <h2>Selesai dibaca</h2>
+                        <div id="completeBookshelfList" class="book_list"></div>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="search_section">
+                    <h2>Cari Buku</h2>
+                    <form id="searchBook">
+                        <input id="searchBookTitle" type="text" placeholder="Masukkan Judul Buku > Press Enter">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    
+</body>
+    <script src="js/data.js" type="text/javascript"></script>
+    <script src="js/dom.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+</html>
